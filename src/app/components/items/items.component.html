@@ -1,0 +1,7 @@
+<app-add-item (onAddItem)="addItem($event)" ></app-add-item>
+<app-item-cp 
+    *ngFor="let item of items" 
+    [item]="item" 
+    (onDeleteItem)="deleteItem(item)" 
+    (onToogleReminder)="toogleReminder(item)">
+</app-item-cp>

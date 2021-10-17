@@ -1,0 +1,22 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "name": "Water",
+      "qte": 6,
+      "reminder": true
+    },
+    {
+      "id": 2,
+      "name": "Spaghetti",
+      "qte": 2,
+      "reminder": true
+    },
+    {
+      "id": 3,
+      "name": "Chocolate",
+      "qte": 1,
+      "reminder": false
+    }
+  ]
+}

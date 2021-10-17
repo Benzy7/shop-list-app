@@ -1,0 +1,7 @@
+<div class="item" [ngClass]="{reminder: item.reminder}" (dblclick)="onToogle(item)">
+    <h3>
+        {{ item.name }} 
+        <fa-icon [icon]="faTimes" [ngStyle]="{color: 'red'}" (click)="onDel(item)"></fa-icon>
+    </h3>
+    <p>{{ item.qte }}</p>
+</div>

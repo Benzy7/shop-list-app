@@ -1,0 +1,15 @@
+footer {
+    margin-top: 30px;
+    text-align: center;
+}
+
+a {
+  color: darkslategray;
+  text-decoration: none;
+}
+
+a:hover {
+  color: lightslategrey; 
+  text-decoration:none; 
+  cursor:pointer;  
+}
